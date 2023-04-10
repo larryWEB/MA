@@ -919,12 +919,33 @@ display:flex;
   width:70px;
 }
 
+
 .p-details p{
   font-size:13px;
   color:#777474;
   padding-top:9px;
+	font-family: 'Montserrat', sans-serif;
 }
 
+.p-details h1,h5{
+  font-weight:400;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.p-details h1{
+font-size:14px
+}
+
+
+.goal-card{
+	display:flex;
+	gap:5px;
+}
+
+.goal-card p{
+	position:relative;
+	top:-10px;
+}
 
 .p-mother{
   padding-top:80px;
