@@ -1,9 +1,9 @@
-ScrollReveal({ reset: true });
+
 
 ScrollReveal().reveal(".title", {
-    duration: 3000,
+    duration: 2000,
     origin: "top",
-    distance: "400px",
+    distance: "80px",
     easing: "cubic-bezier(0.5, 0, 0, 1)",
     rotate: {
       x: 20,
@@ -13,18 +13,18 @@ ScrollReveal().reveal(".title", {
 
 
 ScrollReveal().reveal(".slide-right", {
-  duration: 3000,
-  origin: "left",
-  distance: "300px",
+  duration: 2000,
+  origin: "bottom",
+  distance: "100px",
   easing: "ease-in"
 });
 
 
 
 ScrollReveal().reveal(".slide-left", {
-    duration: 3000,
-    origin: "right",
-    distance: "300px",
+    duration: 2000,
+    origin: "bottom",
+    distance: "150px",
     easing: "ease-in"
   });
   
