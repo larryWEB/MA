@@ -40,7 +40,7 @@ body, html {
 /* WHATSAPP FIXED ICON */
 .chat{
     position:fixed;
-     top:93%;
+     top:80%;
      display:flex;
      justify-content:right;
      align-items:right;
